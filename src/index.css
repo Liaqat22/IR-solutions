@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Rajdhani:wght@300&display=swap');
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rajdhani', sans-serif; */
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+.footerText{
+    font-size: 2.5rem;
+}
+.rowlogin{
+    padding: 5rem 1rem;
+}
+.userdetailRow{
+    padding: 1rem;
+    border-radius: 1.4rem;
+    box-shadow: 0 0 1rem gray;
+    margin: 3rem 0;
+}
+.homecontainer{
+    margin-top: 7rem;
+    padding: 1rem 2rem;
+}
+.welcomeback{
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 5.8rem;
+padding: 1rem;
+}
+.paratext{
+    font-size: 1.6rem;
+}
+.userText{
+    font-size: 2.5rem;
+    padding: .5rem;
+    line-height: 2.2rem;
+
+}
+/* =============================== navbar ==================================== */
+.containerfluidnav{
+    background: rgb(80, 248, 154);
+    padding: 0rem 2rem;
+}
+.navbar-brand{
+    font-size: 3.5rem;
+    color: #005237;
+}
+.nav-link{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.active{
+    border-bottom: .2rem solid #005237;
+}
+/* =========================== button =================================== */
+.signInBTN{
+    width: 100%;
+    background-color: #50F89A;
+    color: #005237;
+    /* font-family: Sora Variable; */
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 500;
+margin: .3rem 0;
+}
+.signInBTN:hover{
+    background-color: #42ea8b; 
+       transition: 0.3s;
+       color: #005237;
+
+}
+.goggleBTN{
+    width: 100%;
+    background-color: transparent;
+    color: #005237;
+    /* font-family: Sora Variable; */
+    border: .1rem solid black;
+    font-size: 1.6rem;
+    font-weight: 500;
+margin: .3rem 0;
+color: #005237;
+}
+.goggleBTN:hover{
+    background-color: transparent;
+    color: #005237;
+    transition: 0.7s;
+}
+.haventjointSignin{
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+}
+/* ======================================= images ========================================== */
+.logo{
+    width: 50%;
+    padding: 1rem;
+    margin: 1rem 0.5rem;
+}
+.bgimg{
+    background-image: url("../src/pages/Media/Right\ Column.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* ====================================== form ======================================================= */
+
+.formtext{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.anticon svg {
+font-size: 1.6rem;
+}
+.forgetpassword{
+    background: transparent;
+    border: none;
+    text-decoration: underline;
+    color: blue;
+    font-size: 1.4rem;
+}
+.formCol{
+    padding: 2rem 2rem 3rem 2rem;
+}
+
+/* =================================== media quries ================================== */
+
+@media screen and  (min-width:300px) and (max-width:430px) {
+    html {
+      font-size: 41.5%;
+    }
+    .userimage{
+        width: 100%;
+    }
+}
+@media screen and  (min-width:430px) and (max-width:575px) {
+    html {
+      font-size: 50%;
+    }
+    .userimage{
+        width: 100%;
+    }
+}
+@media screen and (min-width:574px) and (max-width:767px) {
+    html {
+      font-size: 55.5%;
+    }
+    .userimage{
+        width: 100%;
+    }
+}
+@media screen and (min-width:765px) and (max-width:990px) {
+    html {
+      font-size: 55.5%;
+    }
+    .userimage{
+        width: 100%;
+    }
+}
+@media screen and (min-width:1600px) and (max-width:2560px) {
+    .layout{
+      width: 1600px;
+      margin: 0 auto;
+    }
+  }
