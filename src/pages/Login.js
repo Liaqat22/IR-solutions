@@ -68,7 +68,7 @@ function Login() {
               <div className="mt-3">
                 <button className="btn btn-primary signInBTN">Sign in</button>
                 <button className="btn btn-primary goggleBTN d-flex  align-items-center justify-content-center">
-                  <img src={gglLogo} alt='gogglelogo' />
+                  <img src={gglLogo} alt='gogglelogo' className='goggleimg'/>
                   <span className='mx-1'>Sign in with Google</span>
                 </button>
               </div>

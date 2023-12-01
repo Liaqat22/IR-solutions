@@ -5,7 +5,7 @@ function UserDetails() {
     const [auth] = useAuth()
   return (
     <div>     
-<div className = "container ">
+<div className = "container userdetailContainer">
   <div className='row d-flex justify-content-evenly align-items-center userdetailRow'>
       <h1 className='m-3 p-3' style={{color : "Highlight"}}>My Profile</h1>
     <div className='col-md-5'>

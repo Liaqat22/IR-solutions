@@ -19,6 +19,7 @@ function AuthProvider({children}) {
         user: parseData
       });
     }
+    // eslint-disable-next-line
    },[])
   return (
     <>

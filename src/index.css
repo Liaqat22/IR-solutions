@@ -19,6 +19,9 @@ html{
 .rowlogin{
     padding: 5rem 1rem;
 }
+.userdetailContainer{
+    padding: 0rem 2rem;
+}
 .userdetailRow{
     padding: 1rem;
     border-radius: 1.4rem;
@@ -65,11 +68,11 @@ padding: 1rem;
     width: 100%;
     background-color: #50F89A;
     color: #005237;
-    /* font-family: Sora Variable; */
-    border: none;
+    border: .1rem solid #50F89A;
     font-size: 1.6rem;
     font-weight: 500;
 margin: .3rem 0;
+padding: 1rem;
 }
 .signInBTN:hover{
     background-color: #42ea8b; 
@@ -81,12 +84,12 @@ margin: .3rem 0;
     width: 100%;
     background-color: transparent;
     color: #005237;
-    /* font-family: Sora Variable; */
     border: .1rem solid black;
     font-size: 1.6rem;
     font-weight: 500;
 margin: .3rem 0;
 color: #005237;
+padding: 1rem
 }
 .goggleBTN:hover{
     background-color: transparent;
@@ -118,24 +121,25 @@ color: #005237;
     font-weight: 500;
 }
 .anticon svg {
-font-size: 1.6rem;
+font-size: 2.3rem;
 }
 .forgetpassword{
     background: transparent;
     border: none;
     text-decoration: underline;
     color: blue;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 .formCol{
     padding: 2rem 2rem 3rem 2rem;
 }
 
+
 /* =================================== media quries ================================== */
 
 @media screen and  (min-width:300px) and (max-width:430px) {
     html {
-      font-size: 41.5%;
+      font-size: 43%;
     }
     .userimage{
         width: 100%;
@@ -148,6 +152,7 @@ font-size: 1.6rem;
     .userimage{
         width: 100%;
     }
+    
 }
 @media screen and (min-width:574px) and (max-width:767px) {
     html {
